@@ -4,8 +4,9 @@ public class Switch3 {
     public static void main(String[] args) {
         kidsShoeSizing("Youth 8-1");
     }
-    public static void kidsShoeSizing(String ageGroup){
-        switch (ageGroup){
+
+    public static void kidsShoeSizing(String ageGroup) {
+        switch (ageGroup) {
             case "Baby 0-12months":
                 System.out.println("uk 0-3");
                 break;
@@ -23,11 +24,6 @@ public class Switch3 {
                 break;
             default:
                 System.out.println("invalid function");
-
-
-
-
-
 
 
         }

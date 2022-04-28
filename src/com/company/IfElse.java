@@ -5,23 +5,21 @@ public class IfElse {
         giveStudentGrade(30);
 
 
-
     }
-    public static void giveStudentGrade(int marks)
-    {
-        if (marks>=0 && marks<=34){
+
+    public static void giveStudentGrade(int marks) {
+        if (marks >= 0 && marks <= 34) {
             System.out.println("fail");
         }
-        if (marks >=35 && marks<=49){
+        if (marks >= 35 && marks <= 49) {
             System.out.println("pass");
-        }
-        else if (marks >=50 && marks<=74){
+        } else if (marks >= 50 && marks <= 74) {
 
             System.out.println("second class");
-        }
-        else if (marks >=75 && marks<=100){
+        } else if (marks >= 75 && marks <= 100) {
             System.out.println("first class");
         }
-    }}
+    }
+}
 
 

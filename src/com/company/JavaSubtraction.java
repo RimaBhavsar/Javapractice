@@ -12,8 +12,8 @@ public class JavaSubtraction {
     }
 
     public static void subtraction(int x, int y) {
-        int z = x-y;
+        int z = x - y;
         System.out.println(z);//will print outcome for value z
     }
 
-    }
+}

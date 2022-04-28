@@ -3,7 +3,7 @@ package com.company;
 public class ArithmeticOP {
 
     public static void main(String[] args) {
-        int a=30, b=5, c=2;
+        int a = 30, b = 5, c = 2;
         int sum = a + b + c;
         int difference = a - b - c;
         int multiplication = a * b * c;

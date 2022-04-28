@@ -2,15 +2,15 @@ package com.company;
 
 public class VaribleValue {
 
-    static int a ;
-    static short b ;
-    static boolean c ;
-    static char d ;
-    static long e ;
-    static byte f ;
-    static double g ;
-    static float h ;
-    static String i ;
+    static int a;
+    static short b;
+    static boolean c;
+    static char d;
+    static long e;
+    static byte f;
+    static double g;
+    static float h;
+    static String i;
 
     public static void main(String[] args) {
 
@@ -24,5 +24,5 @@ public class VaribleValue {
         System.out.println("This is float :" + h);
         System.out.println("This is String  :" + i);
     }
-    }
+}
 

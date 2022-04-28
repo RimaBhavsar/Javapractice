@@ -5,8 +5,8 @@ public class Switch1 {
         numberOfDays("feb");
     }
 
-        public static void numberOfDays(String numberOfDays){
-            switch (numberOfDays){
+    public static void numberOfDays(String numberOfDays) {
+        switch (numberOfDays) {
             case "jan":
                 System.out.println("31");
                 break;
@@ -48,8 +48,6 @@ public class Switch1 {
 
             default:
                 System.out.println("invalid");
-
-
 
 
         }

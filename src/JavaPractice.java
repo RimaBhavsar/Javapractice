@@ -1,14 +1,14 @@
-public class JavaPractice{
+public class JavaPractice {
     public static void main(String[] args) {
-            int a = 25;
-            short b = 250;
-            boolean c = false;
-            char d = 'G';
-            long e = 1927;
-            byte f = 7;
-            double g = 10293686d;
-            float h = 190210284.1902f;
-            String i ="happy";
+        int a = 25;
+        short b = 250;
+        boolean c = false;
+        char d = 'G';
+        long e = 1927;
+        byte f = 7;
+        double g = 10293686d;
+        float h = 190210284.1902f;
+        String i = "happy";
 
         System.out.println("This is int :" + a);
         System.out.println("This is short :" + b);
@@ -21,4 +21,5 @@ public class JavaPractice{
         System.out.println("This is String  :" + i);
 
 
-    }}
+    }
+}

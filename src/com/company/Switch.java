@@ -4,8 +4,9 @@ public class Switch {
     public static void main(String[] args) {
         printDayName("thursday");
     }
-        public static void printDayName(String dayName){
-        switch (dayName){
+
+    public static void printDayName(String dayName) {
+        switch (dayName) {
             case "monday":
                 System.out.println("1");
                 break;
@@ -31,6 +32,6 @@ public class Switch {
             default:
                 System.out.println("invalid day");
         }
-        }
+    }
 
 }

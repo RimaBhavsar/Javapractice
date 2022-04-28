@@ -4,8 +4,9 @@ public class Swich2 {
     public static void main(String[] args) {
         suscriptionOfOTT("Disney");
     }
+
     public static void suscriptionOfOTT(String nameOfOTT) {
-        switch (nameOfOTT){
+        switch (nameOfOTT) {
             case "Netflix":
                 System.out.println("£120 annual");
                 break;
