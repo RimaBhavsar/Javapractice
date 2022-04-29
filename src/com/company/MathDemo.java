@@ -10,6 +10,7 @@ public class MathDemo {
         System.out.println("Random: "+Math.random());
         System.out.println("PI: "+Math.PI);
         System.out.println("getExponent:  "+Math.getExponent(123));
+        System.out.println("asin: "+Math.asin(43));
 
         int myMin   =Math.min(274,263857);
         System.out.println(myMin);
